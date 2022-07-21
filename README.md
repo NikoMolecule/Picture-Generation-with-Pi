@@ -10,8 +10,9 @@ First, i created my own structure "Based", which contains array. i allocated 100
 Next, i overloaded some operations ("multiplication", "subtraction", "addition", "division", "equal sign", "Less-than sign", "Greater-than sign").
 using those operations i calculated 10000 digits of PI, using Leibniz formula for PI.
 
-Leibniz Formula:
-![](https://miro.medium.com/max/1116/1*p5K4UvnIu85CE6yB9Hg-Ww@2x.png)
+##### Leibniz Formula:
+
+![](https://i0.wp.com/programmerabroad.com/wp-content/uploads/2021/03/piCalculation.png?resize=461%2C97&ssl=1)
 
 ## How do you create a image?
 
