@@ -29,6 +29,3 @@ When program saw digit 1, it calculated up-left corner of square and created fil
 g++ main.cpp -o main.exe
 .\main.exe
 ```
-
-## Photo Example
-![lol](https://user-images.githubusercontent.com/98226184/180211450-2896aa9b-cffb-4fcf-87de-dd1364e8cb74.png)
