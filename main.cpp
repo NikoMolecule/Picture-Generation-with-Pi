@@ -15,7 +15,7 @@ struct Based {
     }
   }
 
-  Based operator=(int value) {
+  void operator=(int value) {
     string s = to_string(value);
     for (int i = 0; i < s.length(); i++) {
       if (i < s.length() && s[i] >= '0' && s[i] <= '9') {
@@ -26,7 +26,7 @@ struct Based {
     }
   }
 
-  Based operator=(string value) {
+  void operator=(string value) {
     string s = value;
     for (int i = 0; i < s.length(); i++) {
       if (i < s.length() && s[i] >= '0' && s[i] <= '9') {
