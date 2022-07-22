@@ -1,4 +1,7 @@
-#include <bits/stdc++.h>
+#include <cstdlib>
+#include <ctime>
+#include <iostream>
+#include <string>
 
 #include "bitmap_image.hpp"
 
@@ -248,6 +251,7 @@ string Decimal_to_binary(int a) {
 int main() {
   string s = "test";
   string def = "test";
+  bool symmety = false;
 
   cout << "Enter name of your photo:" << '\n';
   cin >> s;
@@ -257,7 +261,7 @@ int main() {
   int flag = 0;
   int randomArr[16], randomArrBinary[64];
 
-  for (int i = 1; i < 35000; i++) {
+  for (int i = 1; i < 30000; i++) {
     int h = 2 * i + 1;
     if (flag == 0) {
       pi_fourth = pi_fourth - long_division(1, h);
