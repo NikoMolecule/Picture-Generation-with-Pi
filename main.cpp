@@ -251,7 +251,7 @@ string Decimal_to_binary(int a) {
 int main() {
   string s = "test";
   string def = "test";
-  bool symmety = false;
+  int rand_index = (rand() % 9985);
 
   cout << "Enter name of your photo:" << '\n';
   cin >> s;
@@ -276,8 +276,7 @@ int main() {
   srand(time(0));
 
   for (int i = 0; i < 16; i++) {
-    int rand_index = (rand() % 10000);
-    randomArr[i] = pi[rand_index];
+    randomArr[i] = pi[rand_index + i];
   }
 
   for (int i = 0; i < 16; i++) {
