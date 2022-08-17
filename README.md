@@ -20,7 +20,7 @@ I am using [C++ Bitmap Library](https://www.partow.net/programming/bitmap/index.
 
 ## What is logic behind creating the image?
 
-I collect 16 random digits from already calculated PI. next i convert each of them into binary.
+I take random sequence of 16 Pi digits. next i convert each of them into binary.
 When program saw digit 1, it calculated up-left corner of square and created filled 16x16 blue square using line_segments.
 
 ## How to run the program?
